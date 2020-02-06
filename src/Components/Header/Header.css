@@ -1,0 +1,14 @@
+.headerButton {
+  background: transparent;
+  border: none;
+  outline: none;
+}
+
+.headerButton:hover {
+	color: #e9e5e3;
+	transition: .5s;
+}
+
+.header-background {
+	background-image: url("ep_naturalwhite.png");
+}

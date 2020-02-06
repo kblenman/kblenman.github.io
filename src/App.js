@@ -1,26 +1,38 @@
-import React from 'react';
-import logo from './logo.svg';
+import React, { Component } from 'react';
 import './App.css';
+import Header from './Components/Header/Header';
+import AboutMe from './Components/AboutMe/AboutMe';
+import ProjectsPage from './Components/ProjectsPage/ProjectsPage';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+class App extends Component {
+
+  constructor() {
+    super();
+    this.state = {
+      route: 'home',
+    }
+  }
+
+  onRouteChange = (route) => {
+    this.setState({route: route})
+  }
+
+  render() {
+    return (
+    <div className="App fc-dark-bluegray">
+      {/* Header component displays on all routes */}
+      <Header route={this.state.route} onRouteChange={this.onRouteChange} />
+
+      {/* If route is 'home', display AboutMe component. else, display ProjectsPage
+      component.*/}
+      { this.state.route === 'home' ?
+        <AboutMe />
+        :
+        <ProjectsPage />
+      } 
     </div>
-  );
+    );
+  }
 }
 
 export default App;
