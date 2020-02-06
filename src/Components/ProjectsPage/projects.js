@@ -12,8 +12,8 @@ export const projects = [
 		projectDescription: `Want to see the code behind this site? Just click the 'View Code' 
 		link below!`,
 		technologyUsed: ["React", "Tachyons", "Animate.css"],
-		codeLink: "https://kblenman.github.io/",
-		viewLink: "https://github.com/kblenman/kblenman.github.io",
+		codeLink: "https://github.com/kblenman/kb-portfolio/tree/master",
+		viewLink: "https://kblenman.github.io/kb-portfolio/",
 	},
 	{
 		projectName: "Food Order V2",
