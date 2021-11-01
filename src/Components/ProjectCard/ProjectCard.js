@@ -3,8 +3,7 @@ import './ProjectCard.css';
 
 const ProjectCard = (props) => {
 	return (
-		<div className="card-height card-grid card-background w-100 w-40-l ma3 
-		font-main f4 tc shadow-2">
+		<div className="card-height card-grid card-background w-100 w-70-m w-30-l ma3 font-main f4 tc shadow-2">
 			<h4 className="flex justify-center items-center ma0 pa3 w-100 ttu tracked font-subtitle fc-lighttan">{props.projectName}</h4>
 			<p className="flex justify-center items-center ma0 pa3 w-100 lh-copy">{props.projectDescription}</p>
 			<div className="w-80 pa2 flex flex-wrap justify-around center fc-darktan">

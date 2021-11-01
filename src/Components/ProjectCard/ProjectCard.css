@@ -4,7 +4,7 @@
 
 .card-grid {
 	display: grid;
-	grid-template-rows: 1fr 4fr 1fr 1fr;
+	grid-template-rows: 1fr 5fr 1fr 1fr;
 }
 
 .card-background {
@@ -12,7 +12,7 @@
 	background-size: cover;
 }
 
-@media only screen and (max-width: 48em) {
+@media only screen and (max-width: 90em) {
 	.card-height {
 		height: 400px;
 	}

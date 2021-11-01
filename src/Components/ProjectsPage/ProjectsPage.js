@@ -6,7 +6,7 @@ const ProjectsPage = () => {
 	return (
 		<div className="font-main f3 flex flex-column items-center animate__animated animate__fadeInRight">
 			<h3 className="ttu tracked font-subtitle mb0">Projects</h3>
-			<div className="tc lh-copy w-80 bb">
+			<div className="tc lh-copy w-90 bb">
 				<p className="mb1">Welcome to the projects page!</p>
 				<p className="mt0 mb1">Be sure to visit each project's code to learn more about
 				them.</p>

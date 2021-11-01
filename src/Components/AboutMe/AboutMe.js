@@ -6,15 +6,15 @@ const AboutMe = () => {
 			<h3 className="ttu tracked font-subtitle mb0">About Me</h3>
 			<div className="tc lh-copy">
 				<p>My name is Kira-Norese and I am a software engineer from Tampa, Florida. Although I have knowledge 
-				in many programming languages and capable of creating full-stack applications from front to back, 
-				<i className="fc-darktan"> my specialty is in front-end development</i>.
-				Why front-end development? Well... I absolutely enjoy the process! I love talking to users and gaining an understanding 
-				of what they are looking to achieve or how they tend to use a product, then based on that understanding, designing and 
-				coding a user interface that not only gets that job done but also provides a great user experience.</p>
-				<p>In my free time I enjoy gardening and spending time with my family, which including my two crazy dogs. I'm
-				also a lover of videogames (Fun Fact: it's what initially got me into technology!) 
-				and if I'm not playing one, there is a good chance I might be watching someone else play on 
-				Twitch or Youtube.</p>
+				in many programming languages and can create full-stack applications from front to back, 
+				<span className="fc-darktan"> I prefer front-end roles</span>. Why the front-end? Well... I absolutely enjoy the process! 
+				I love talking to users and gaining an understanding of what they are looking to achieve or how they tend to use 
+				a product, then based on that understanding, designing and coding a user interface that not only gets that job done 
+				but also provides a great user experience.</p>
+				<p>In my free time <span className="fc-darktan">I enjoy gardening and spending time with my family</span>, 
+				which includes my two crazy dogs. I'm also a <span className="fc-darktan">lover of videogames </span> 
+				(Fun Fact: it's what initially got me into technology!) and if I'm not playing one, there is a good chance I might 
+				be watching someone else play on Twitch or Youtube.</p>
 			</div>
 			<div className="flex flex-column flex-row-ns f4 font-subtitle">
 				<div className="link-container flex items-center justify-center ma3">
