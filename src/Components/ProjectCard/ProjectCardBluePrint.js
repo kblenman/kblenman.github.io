@@ -3,8 +3,7 @@ import './ProjectCard.css';
 
 const ProjectCard = () => {
 	return (
-		<div className="card-background w-100 w-40-l ma3 font-main f4 
-		animated fadeIn delay-1s shadow-2 flex flex-column tc items-center">
+		<div className="card-background w-100 w-40-l ma3 font-main f4 shadow-2 flex flex-column tc items-center">
 			<h4 className="w-100 pa3 ttu tracked font-subtitle fc-lighttan ma0">Project's Name</h4>
 			<p className="w-80 pa0 ma0 center lh-copy">Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
 			Sed euismod venenatis magna in vestibulum. Curabitur quis massa nibh. Sed diam sem, 

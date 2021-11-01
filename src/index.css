@@ -1,3 +1,22 @@
 body {
 	background-color: #e9e5e3;
 }
+
+/* Custom scrollbar */
+* {
+	scrollbar-width: thin;
+	scrollbar-color: #aab1b3 #e9e5e3;
+}
+
+*::-webkit-scrollbar {
+	width: 15px;
+}
+  
+*::-webkit-scrollbar-track {
+	background: #e9e5e3;        /* color of the tracking area */
+}
+  
+*::-webkit-scrollbar-thumb {
+	background-color: #aab1b3;    /* color of the scroll thumb */
+	border-radius: 100px;       /* roundness of the scroll thumb */
+}
