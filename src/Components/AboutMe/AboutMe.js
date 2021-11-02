@@ -5,9 +5,9 @@ const AboutMe = () => {
 		<div className="w-70 center font-main flex flex-column items-center f3 tc animate__animated animate__fadeInLeft">
 			<h3 className="ttu tracked font-subtitle mb0">About Me</h3>
 			<div className="tc lh-copy">
-				<p>My name is Kira-Norese and I am a software engineer from Tampa, Florida. Although I have knowledge 
+				<p>My name is Kira-Norese and I am a software developer from Tampa, Florida. Although I have knowledge 
 				in many programming languages and can create full-stack applications from front to back, 
-				<span className="fc-darktan"> I prefer front-end roles</span>. Why the front-end? Well... I absolutely enjoy the process! 
+				<span className="fc-darktan"> my focus is on front-end development</span>. Why the front-end? Well... I absolutely enjoy the process! 
 				I love talking to users and gaining an understanding of what they are looking to achieve or how they tend to use 
 				a product, then based on that understanding, designing and coding a user interface that not only gets that job done 
 				but also provides a great user experience.</p>

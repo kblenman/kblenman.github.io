@@ -12,3 +12,7 @@
 .header-background {
 	background-image: url("ep_naturalwhite.png");
 }
+
+.activeRoute button {
+  color: #9e6228;;
+}
