@@ -1,19 +1,17 @@
-.card-height {
-	height: 300px;
-}
-
-.card-grid {
-	display: grid;
-	grid-template-rows: 1fr 5fr 1fr 1fr;
-}
-
-.card-background {
+.project-card {
 	background-image: url("dust_scratches.png");
 	background-size: cover;
+	height: 300px;
+	display: grid;
+	grid-template-rows: 10% 45% 30% 15%;
 }
 
 @media only screen and (max-width: 90em) {
-	.card-height {
+	.project-card {
 		height: 400px;
 	}
+}
+
+.justify-evenly {
+	justify-content: space-evenly;
 }

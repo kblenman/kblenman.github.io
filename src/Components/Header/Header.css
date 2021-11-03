@@ -1,18 +1,16 @@
-.headerButton {
-  background: transparent;
-  border: none;
-  outline: none;
+a.headerNavLink {
+  text-decoration: none;
 }
 
-.headerButton:hover {
+a.headerNavLink:hover {
 	color: #e9e5e3;
 	transition: .5s;
 }
 
-.header-background {
-	background-image: url("ep_naturalwhite.png");
+a.activeRoute {
+  color: #9e6228;
 }
 
-.activeRoute button {
-  color: #9e6228;;
+.header-background {
+	background-image: url("ep_naturalwhite.png");
 }

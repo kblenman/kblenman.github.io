@@ -12,18 +12,14 @@ const Header = () => {
 			</div>
 
 			<div className="mt2 pa3 flex justify-center f3 font-main w-100 bg-light-bluegray tc">
-				<div className="w-50-m w-25-l flex flex-column flex-row-ns justify-around">
-					<NavLink to="/" exact activeClassName="activeRoute">
-						<button className="headerButton ttu tracked pointer mb2 mb0-ns">
-							Home
-						</button>
+				<nav className="w-50-m w-25-l flex flex-column flex-row-ns justify-around">
+					<NavLink to="/" exact activeClassName="activeRoute" className="headerNavLink ttu tracked pointer mb2 mb0-ns">
+						Home
 					</NavLink>
-					<NavLink to="/projects" activeClassName="activeRoute">
-						<button className="headerButton ttu tracked pointer">
-							Projects
-						</button>
+					<NavLink to="/projects" activeClassName="activeRoute" className="headerNavLink ttu tracked pointer">
+						Projects
 					</NavLink>
-				</div>
+				</nav>
 			</div>
 		</header>
 	);

@@ -2,7 +2,7 @@ import React from 'react';
 
 const AboutMe = () => {
 	return (
-		<div className="w-70 center font-main flex flex-column items-center f3 tc animate__animated animate__fadeInLeft">
+		<section className="w-70 center font-main flex flex-column items-center f3 tc animate__animated animate__fadeInLeft">
 			<h3 className="ttu tracked font-subtitle mb0">About Me</h3>
 			<div className="tc lh-copy">
 				<p>My name is Kira-Norese and I am a software developer from Tampa, Florida. Although I have knowledge 
@@ -29,7 +29,7 @@ const AboutMe = () => {
 					target="_blank" className="link underline-hover" rel="noopener noreferrer">LinkedIn</a>
 				</div>
 			</div>
-		</div>
+		</section>
 	);
 }
 

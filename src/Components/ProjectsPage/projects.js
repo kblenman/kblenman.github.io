@@ -3,9 +3,10 @@ export const projects = [
 		projectName: "Match USF",
 		projectDescription: `Match USF is a full-stack web application created to help
 			instructors match students into optimal project groups faster.`,
-		technologyUsed: ["React", "Node", "Express", "PostgreSQL", "Tachyons", "Materialize"],
+		technologyUsed: ["React", "Node", "Express", "PostgreSQL", "Heroku" ,"Tachyons", "Materialize"],
 		codeLink: "https://github.com/kblenman/kb-musf",
 		viewLink: "https://musf-frontend.herokuapp.com/",
+		designLink: ""
 	},
 	{
 		projectName: "Portfolio",
@@ -14,6 +15,7 @@ export const projects = [
 		technologyUsed: ["React", "Tachyons", "Animate.css"],
 		codeLink: "https://github.com/kblenman/kblenman.github.io",
 		viewLink: "https://kblenman.github.io",
+		designLink: ""
 	},
 	{
 		projectName: "Food Order V2",
@@ -22,5 +24,6 @@ export const projects = [
 		technologyUsed: ["HTML", "Javascript", "CSS", "Materialize"],
 		codeLink: "https://github.com/kblenman/kb-foodorder-v2",
 		viewLink: "https://kblenman.github.io/kb-foodorder-v2/",
+		designLink: ""
 	},
 ]
