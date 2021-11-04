@@ -19,25 +19,25 @@ const ProjectCard = (props) => {
 					})
 				}
 			</div>
-			<div className="flex justify-evenly bg-light-bluegray">
+			<div className="flex justify-evenly bg-light-bluegray f5 f4-ns">
 				{ props.designLink !== "" ?
-					<div className="flex items-center justify-center pa2">
-						<i className="fas fa-paint-brush fa-xs pa2"></i>
+					<div className="flex items-center justify-center">
+						<i className="fas fa-paint-brush fa-sm mh1"></i>
 						<a href={props.designLink} target="_blank" 
-						className="link underline-hover tc f5 f4-ns" rel="noopener noreferrer">Design</a>
+						className="link underline-hover mh1" rel="noopener noreferrer">Design</a>
 					</div>
 					:
 					<p className="dn"></p>				
 				}
-				<div className="flex items-center justify-center pa2">
-					<i className="fas fa-desktop fa-xs pa2"></i>
+				<div className="flex items-center justify-center">
+					<i className="fas fa-desktop fa-sm mh1"></i>
 					<a href={props.viewLink} target="_blank" 
-					className="link underline-hover tc f5 f4-ns" rel="noopener noreferrer">View Project</a>
+					className="link underline-hover mh1" rel="noopener noreferrer">View</a>
 				</div>
-				<div className="flex items-center justify-center pa2">
-					<i className="fas fa-code fa-xs pa2"></i>
+				<div className="flex items-center justify-center">
+					<i className="fas fa-code fa-sm mh1"></i>
 					<a href={props.codeLink} target="_blank" 
-					className="link underline-hover tc f5 f4-ns" rel="noopener noreferrer">Code</a>
+					className="link underline-hover mh1" rel="noopener noreferrer">Code</a>
 				</div>
 			</div>
 		</div>

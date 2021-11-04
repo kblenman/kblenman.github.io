@@ -10,7 +10,7 @@ export const projects = [
 	},
 	{
 		projectName: "Portfolio",
-		projectDescription: `Want to see the code behind this site? Just click the 'View Code' 
+		projectDescription: `Want to see the code behind this site? Just click the 'Code' 
 		link below!`,
 		technologyUsed: ["React", "Tachyons", "Animate.css"],
 		codeLink: "https://github.com/kblenman/kblenman.github.io",
